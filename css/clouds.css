@@ -1,0 +1,38 @@
+@import "compass/css3";
+
+.cloud, .cloud_two{
+	animation: bobble 40s ease infinite;
+  position: absolute;
+  top: 67%; left: 58%;
+  margin-top: -30px;
+  margin-left: -30px;
+  background: #FFFFFF;
+  height: 15vh; width: 15vw;
+  box-shadow:
+		#FFFFFF 65px 5px 0 -5px,
+		#FFFFFF 25px -25px,
+		#FFFFFF 30px 10px,
+		#FFFFFF 40px 15px 0 -10px;
+	border-radius: 35%;
+}
+
+.cloud {
+	animation: bobble 30s ease infinite;
+	height: 20vh; width: 20vw;
+}
+
+.cloud_two{
+	top: 56%; left: 10%;
+	animation-duration: 15s;
+}
+
+@keyframes bobble{
+
+  50% {
+    transform: translateY(60px);
+  }
+
+	100% {
+		transform: translateY(0);
+	}
+}

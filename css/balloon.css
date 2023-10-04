@@ -1,0 +1,31 @@
+.balloon {
+  background-image: url('../img/hot-air-balloon.png');
+  background-repeat: no-repeat;
+  height: 205px;
+  width: 150px;
+  position: absolute;
+  top: 70%; left: 8%;
+  animation: balloon 60s linear infinite;
+}
+
+@keyframes balloon {
+  12% {
+    transform: translateX(20vw) translateY(-10vh);
+  }
+
+  30% {
+    transform: translateX(35vw) translateY(0);
+  }
+
+  45% {
+    transform: translateX(55vw) translateY(-10vh);
+  }
+
+  60% {
+    transform: translateX(75vw) translateY(0);
+  }
+
+  80% {
+    transform: translateX(40vw) translateY(40vh);
+  }
+}
