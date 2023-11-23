@@ -259,8 +259,7 @@
   color: #fff;
   background-color: transparent;
   border: 2px solid lightblue;
-  margin-top: 1.8vh;
-  padding: 3% 5%;
+  padding: 2% 4%;
 }
 
 .git-redir:hover {
@@ -288,6 +287,10 @@
 
 .contact-link:visited {
   color: #396D9B;
+}
+
+.contact-link:hover {
+  color: #fff;
 }
 
 .contact-link:link {
@@ -375,6 +378,11 @@
   .row-style {
     width: 90%;
   }
+
+  .xl-screen-p {
+    font-size: 2.4vh;
+    line-height: 120%;
+  }
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
@@ -426,6 +434,11 @@
   .footer {
     top: 665%;
   }
+
+  .xl-screen-p {
+    font-size: 2.4vh;
+    line-height: 120%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
@@ -472,6 +485,11 @@
   .footer {
     top: 475%;
   }
+
+  .xl-screen-p {
+    font-size: 2.7vh;
+    line-height: 100%;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 990px) {
@@ -505,6 +523,11 @@
   .footer {
     top: 485%;
   }
+
+  .xl-screen-p {
+    font-size: 2.5vh;
+    line-height: 110%;
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
@@ -533,6 +556,11 @@
   .footer {
     top: 455%;
   }
+
+  .xl-screen-p {
+    font-size: 2.7vh;
+    line-height: 100%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -556,6 +584,11 @@
   .pc-border-r {
     border-top-right-radius: 0.8vh;
   }
+
+  .xl-screen-p {
+    font-size: 2.5vh;
+    line-height: 110%;
+  }
 }
 
 @media screen and (min-width: 1921px) {
@@ -566,7 +599,8 @@
   }
 
   .xl-screen-p {
-    font-size: 2.5vh;
+    font-size: 2.2vh;
+    line-height: 110%;
   }
 
   .skills-para {
